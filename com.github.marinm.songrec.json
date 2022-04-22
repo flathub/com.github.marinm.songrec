@@ -17,7 +17,7 @@
         "--socket=pulseaudio"
     ],
     "build-options": {
-        "append-path" : "/usr/lib/sdk/rust-stable/bin",
+        "append-path" : "/usr/lib/sdk/rust-stable/bin",7
         "env" : {
             "CARGO_HOME" : "/run/build/songrec/.cargo"
         }
@@ -37,8 +37,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/marin-m/SongRec/releases/download/0.3.0/songrec_tarball_0.3.0_for_flathub_build.tar.gz",
-                    "sha256": "c80924f558cd8afc2b58a6dceb24708860ce54b0fb824fc8e37057707a527767"
+                    "url": "https://github.com/marin-m/SongRec/releases/download/0.3.1/songrec_tarball_0.3.1_for_flathub_build.tar.gz",
+                    "sha256": "7830774cd8e6ac454bc1fe967bd17ec235c5904a36c0a73f0cff605d3f4c5baa"
                 }
             ]
         }
