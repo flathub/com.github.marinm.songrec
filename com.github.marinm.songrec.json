@@ -37,8 +37,8 @@
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/marin-m/SongRec/releases/download/0.3.1/songrec_tarball_0.3.1_for_flathub_build.tar.gz",
-                    "sha256": "7830774cd8e6ac454bc1fe967bd17ec235c5904a36c0a73f0cff605d3f4c5baa"
+                    "url": "https://github.com/marin-m/SongRec/releases/download/0.3.2/songrec_tarball_0.3.2_for_flathub_build.tar.gz",
+                    "sha256": "5df9c12a50afdac293b5aeaa49cc036619b2b080775d083056cc69a584143a4d"
                 }
             ]
         }
