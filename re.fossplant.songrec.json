@@ -1,5 +1,5 @@
 {
-    "app-id": "com.github.marinm.songrec",
+    "app-id": "re.fossplant.songrec",
     "runtime": "org.freedesktop.Platform",
     "runtime-version": "25.08",
     "sdk": "org.freedesktop.Sdk",
@@ -31,14 +31,13 @@
                 "cargo --offline build --release --verbose",
                 "install -Dm755 ./target/release/songrec -t /app/bin/",
                 "cp -ra ./packaging/rootfs/usr/share /app/",
-                "mkdir -p /app/share/songrec",
-                "cp -ra ./translations /app/share/songrec"
+                "cp -ra ./translations/locale /app/share/"
             ],
             "sources": [
                 {
                     "type": "archive",
-                    "url": "https://github.com/marin-m/SongRec/releases/download/0.4.3/songrec_tarball_0.4.3_for_flathub_build.tar.gz",
-                    "sha256": "2cac62f0c3835c74ece3137ac17e3a77a7a268414de6418613770de825452818"
+                    "url": "https://github.com/marin-m/SongRec/releases/download/0.5.0/songrec_tarball_0.5.0_for_flathub_build.tar.gz",
+                    "sha256": "3162d23fa90f2e1a03c9b79cb119b05fe63dbe82faf894caac4600485feee5ba"
                 }
             ]
         }
